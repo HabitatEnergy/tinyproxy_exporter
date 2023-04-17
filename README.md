@@ -1,7 +1,22 @@
 # tinyproxy_exporter
-[![Build Status](https://travis-ci.com/igzivkov/tinyproxy_exporter.svg?branch=master)](https://travis-ci.com/igzivkov/tinyproxy_exporter)
 
 A simple Prometheus exporter for Tinyproxy.
+
+NOTE: Australia uses tinyproxy for our AEMO VPN gateway.
+
+## Original Project: 
+[![Build Status](https://travis-ci.com/igzivkov/tinyproxy_exporter.svg?branch=master)](https://travis-ci.com/igzivkov/tinyproxy_exporter)
+
+## Habitat Build:
+![Build Status](https://github.com/HabitatEnergy/tinyproxy_exporter/actions/workflows/docker-publish.yml/badge.svg)
+
+## Our Image:
+
+```
+docker pull ghcr.io/habitatenergy/tinyproxy_exporter
+```
+
+
 
 ## Usage
 
